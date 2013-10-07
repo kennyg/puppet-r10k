@@ -11,5 +11,8 @@ class r10k::params {
     'lucid': {
       $r10k_bin = '/var/lib/gems/1.8/bin/r10k'
     }
+    'Santiago': {
+      $r10k_bin = '/usr/bin/r10k'
+    }
   }
 }
